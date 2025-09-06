@@ -1,0 +1,89 @@
+INFO(140031583016768)2025-06-06 16:34:36,647:*************************
+INFO(140031583016768)2025-06-06 16:34:36,647:deblurring started
+WARNING(140031583016768)2025-06-06 16:34:36,648:deblur version 1.1.1 workflow started on /tmp/qiime2/shobita/processes/1819-1749207860.88@shobita/tmp/q2-OutPath-vsdhm2kb
+WARNING(140031583016768)2025-06-06 16:34:36,648:parameters: {'seqs_fp': '/tmp/qiime2/shobita/processes/1819-1749207860.88@shobita/tmp/q2-OutPath-vsdhm2kb', 'output_dir': '/tmp/tmpy3m0ze4t', 'pos_ref_fp': (), 'pos_ref_db_fp': (), 'neg_ref_fp': (), 'neg_ref_db_fp': (), 'overwrite': True, 'mean_error': 0.005, 'error_dist': [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005], 'indel_prob': 0.01, 'indel_max': 3, 'trim_length': 149, 'left_trim_length': 0, 'min_reads': 10, 'min_size': 2, 'threads_per_sample': 1, 'keep_tmp_files': True, 'log_level': 2, 'log_file': '/home/shobita/EpidermolysisBullosa/deblur.log', 'jobs_to_start': 1, 'is_worker_thread': False, 'logger': <Logger __main__ (INFO)>}
+INFO(140031583016768)2025-06-06 16:34:36,648:error_dist is : [1.0, 0.06, 0.02, 0.02, 0.01, 0.005, 0.005, 0.005, 0.001, 0.001, 0.001, 0.0005]
+INFO(140031583016768)2025-06-06 16:34:36,648:deblur main program started
+INFO(140031583016768)2025-06-06 16:34:36,650:processing directory /tmp/qiime2/shobita/processes/1819-1749207860.88@shobita/tmp/q2-OutPath-vsdhm2kb
+INFO(140031583016768)2025-06-06 16:34:36,651:building negative db sortmerna index files
+INFO(140031583016768)2025-06-06 16:34:36,651:build_index_sortmerna files ['/home/shobita/anaconda3/envs/qiime2-amplicon-2024.10/lib/python3.10/site-packages/deblur/support_files/artifacts.fa'] to dir /tmp/tmpy3m0ze4t/deblur_working_dir
+INFO(140031583016768)2025-06-06 16:34:36,707:building positive db sortmerna index files
+INFO(140031583016768)2025-06-06 16:34:36,707:build_index_sortmerna files ['/home/shobita/anaconda3/envs/qiime2-amplicon-2024.10/lib/python3.10/site-packages/deblur/support_files/88_otus.fasta'] to dir /tmp/tmpy3m0ze4t/deblur_working_dir
+INFO(140031583016768)2025-06-06 16:35:44,770:processing per sample fasta files
+INFO(140031583016768)2025-06-06 16:35:44,771:--------------------------------------------------------
+INFO(140031583016768)2025-06-06 16:35:44,771:launch_workflow for file /tmp/qiime2/shobita/processes/1819-1749207860.88@shobita/tmp/q2-OutPath-vsdhm2kb/patient1-rep1_3_L001_R1_001.fastq.gz
+INFO(140031583016768)2025-06-06 16:36:40,185:dereplicate seqs file /tmp/tmpy3m0ze4t/deblur_working_dir/patient1-rep1_3_L001_R1_001.fastq.gz.trim
+INFO(140031583016768)2025-06-06 16:36:40,442:remove_artifacts_seqs file /tmp/tmpy3m0ze4t/deblur_working_dir/patient1-rep1_3_L001_R1_001.fastq.gz.trim.derep
+INFO(140031583016768)2025-06-06 16:36:41,214:total sequences 11333, passing sequences 11333, failing sequences 0
+INFO(140031583016768)2025-06-06 16:36:41,214:multiple_sequence_alignment seqs file /tmp/tmpy3m0ze4t/deblur_working_dir/patient1-rep1_3_L001_R1_001.fastq.gz.trim.derep.no_artifacts
+INFO(140031583016768)2025-06-06 16:39:29,444:deblurring 11333 sequences
+INFO(140031583016768)2025-06-06 16:41:53,155:5649 unique sequences left following deblurring
+INFO(140031583016768)2025-06-06 16:41:53,328:remove_chimeras_denovo_from_seqs seqs file /tmp/tmpy3m0ze4t/deblur_working_dir/patient1-rep1_3_L001_R1_001.fastq.gz.trim.derep.no_artifacts.msa.deblurto working dir /tmp/tmpy3m0ze4t/deblur_working_dir
+INFO(140031583016768)2025-06-06 16:41:54,312:finished processing file
+INFO(140031583016768)2025-06-06 16:41:54,316:--------------------------------------------------------
+INFO(140031583016768)2025-06-06 16:41:54,316:launch_workflow for file /tmp/qiime2/shobita/processes/1819-1749207860.88@shobita/tmp/q2-OutPath-vsdhm2kb/control1-rep1_0_L001_R1_001.fastq.gz
+INFO(140031583016768)2025-06-06 16:43:11,764:dereplicate seqs file /tmp/tmpy3m0ze4t/deblur_working_dir/control1-rep1_0_L001_R1_001.fastq.gz.trim
+INFO(140031583016768)2025-06-06 16:43:12,173:remove_artifacts_seqs file /tmp/tmpy3m0ze4t/deblur_working_dir/control1-rep1_0_L001_R1_001.fastq.gz.trim.derep
+INFO(140031583016768)2025-06-06 16:43:12,992:total sequences 14503, passing sequences 14503, failing sequences 0
+INFO(140031583016768)2025-06-06 16:43:12,992:multiple_sequence_alignment seqs file /tmp/tmpy3m0ze4t/deblur_working_dir/control1-rep1_0_L001_R1_001.fastq.gz.trim.derep.no_artifacts
+INFO(140031583016768)2025-06-06 16:46:12,647:deblurring 14503 sequences
+INFO(140031583016768)2025-06-06 16:47:11,836:2490 unique sequences left following deblurring
+INFO(140031583016768)2025-06-06 16:47:11,879:remove_chimeras_denovo_from_seqs seqs file /tmp/tmpy3m0ze4t/deblur_working_dir/control1-rep1_0_L001_R1_001.fastq.gz.trim.derep.no_artifacts.msa.deblurto working dir /tmp/tmpy3m0ze4t/deblur_working_dir
+INFO(140031583016768)2025-06-06 16:47:12,788:finished processing file
+INFO(140031583016768)2025-06-06 16:47:12,791:--------------------------------------------------------
+INFO(140031583016768)2025-06-06 16:47:12,791:launch_workflow for file /tmp/qiime2/shobita/processes/1819-1749207860.88@shobita/tmp/q2-OutPath-vsdhm2kb/control1-rep2_1_L001_R1_001.fastq.gz
+INFO(140031583016768)2025-06-06 16:48:00,733:dereplicate seqs file /tmp/tmpy3m0ze4t/deblur_working_dir/control1-rep2_1_L001_R1_001.fastq.gz.trim
+INFO(140031583016768)2025-06-06 16:48:00,986:remove_artifacts_seqs file /tmp/tmpy3m0ze4t/deblur_working_dir/control1-rep2_1_L001_R1_001.fastq.gz.trim.derep
+INFO(140031583016768)2025-06-06 16:48:01,666:total sequences 9058, passing sequences 9058, failing sequences 0
+INFO(140031583016768)2025-06-06 16:48:01,666:multiple_sequence_alignment seqs file /tmp/tmpy3m0ze4t/deblur_working_dir/control1-rep2_1_L001_R1_001.fastq.gz.trim.derep.no_artifacts
+INFO(140031583016768)2025-06-06 16:49:08,859:deblurring 9058 sequences
+INFO(140031583016768)2025-06-06 16:49:32,766:1623 unique sequences left following deblurring
+INFO(140031583016768)2025-06-06 16:49:32,787:remove_chimeras_denovo_from_seqs seqs file /tmp/tmpy3m0ze4t/deblur_working_dir/control1-rep2_1_L001_R1_001.fastq.gz.trim.derep.no_artifacts.msa.deblurto working dir /tmp/tmpy3m0ze4t/deblur_working_dir
+INFO(140031583016768)2025-06-06 16:49:33,273:finished processing file
+INFO(140031583016768)2025-06-06 16:49:33,275:--------------------------------------------------------
+INFO(140031583016768)2025-06-06 16:49:33,275:launch_workflow for file /tmp/qiime2/shobita/processes/1819-1749207860.88@shobita/tmp/q2-OutPath-vsdhm2kb/patient1-rep3_5_L001_R1_001.fastq.gz
+INFO(140031583016768)2025-06-06 16:50:39,716:dereplicate seqs file /tmp/tmpy3m0ze4t/deblur_working_dir/patient1-rep3_5_L001_R1_001.fastq.gz.trim
+INFO(140031583016768)2025-06-06 16:50:40,115:remove_artifacts_seqs file /tmp/tmpy3m0ze4t/deblur_working_dir/patient1-rep3_5_L001_R1_001.fastq.gz.trim.derep
+INFO(140031583016768)2025-06-06 16:50:40,878:total sequences 11989, passing sequences 11989, failing sequences 0
+INFO(140031583016768)2025-06-06 16:50:40,878:multiple_sequence_alignment seqs file /tmp/tmpy3m0ze4t/deblur_working_dir/patient1-rep3_5_L001_R1_001.fastq.gz.trim.derep.no_artifacts
+INFO(140031583016768)2025-06-06 16:53:34,423:deblurring 11989 sequences
+INFO(140031583016768)2025-06-06 16:55:41,771:4743 unique sequences left following deblurring
+INFO(140031583016768)2025-06-06 16:55:41,899:remove_chimeras_denovo_from_seqs seqs file /tmp/tmpy3m0ze4t/deblur_working_dir/patient1-rep3_5_L001_R1_001.fastq.gz.trim.derep.no_artifacts.msa.deblurto working dir /tmp/tmpy3m0ze4t/deblur_working_dir
+INFO(140031583016768)2025-06-06 16:55:42,832:finished processing file
+INFO(140031583016768)2025-06-06 16:55:42,836:--------------------------------------------------------
+INFO(140031583016768)2025-06-06 16:55:42,836:launch_workflow for file /tmp/qiime2/shobita/processes/1819-1749207860.88@shobita/tmp/q2-OutPath-vsdhm2kb/control1-rep3_2_L001_R1_001.fastq.gz
+INFO(140031583016768)2025-06-06 16:56:29,668:dereplicate seqs file /tmp/tmpy3m0ze4t/deblur_working_dir/control1-rep3_2_L001_R1_001.fastq.gz.trim
+INFO(140031583016768)2025-06-06 16:56:29,919:remove_artifacts_seqs file /tmp/tmpy3m0ze4t/deblur_working_dir/control1-rep3_2_L001_R1_001.fastq.gz.trim.derep
+INFO(140031583016768)2025-06-06 16:56:30,560:total sequences 7332, passing sequences 7332, failing sequences 0
+INFO(140031583016768)2025-06-06 16:56:30,561:multiple_sequence_alignment seqs file /tmp/tmpy3m0ze4t/deblur_working_dir/control1-rep3_2_L001_R1_001.fastq.gz.trim.derep.no_artifacts
+INFO(140031583016768)2025-06-06 16:57:12,751:deblurring 7332 sequences
+INFO(140031583016768)2025-06-06 16:57:29,213:1298 unique sequences left following deblurring
+INFO(140031583016768)2025-06-06 16:57:29,230:remove_chimeras_denovo_from_seqs seqs file /tmp/tmpy3m0ze4t/deblur_working_dir/control1-rep3_2_L001_R1_001.fastq.gz.trim.derep.no_artifacts.msa.deblurto working dir /tmp/tmpy3m0ze4t/deblur_working_dir
+INFO(140031583016768)2025-06-06 16:57:29,598:finished processing file
+INFO(140031583016768)2025-06-06 16:57:29,599:--------------------------------------------------------
+INFO(140031583016768)2025-06-06 16:57:29,599:launch_workflow for file /tmp/qiime2/shobita/processes/1819-1749207860.88@shobita/tmp/q2-OutPath-vsdhm2kb/patient1-rep2_4_L001_R1_001.fastq.gz
+INFO(140031583016768)2025-06-06 16:59:25,731:dereplicate seqs file /tmp/tmpy3m0ze4t/deblur_working_dir/patient1-rep2_4_L001_R1_001.fastq.gz.trim
+INFO(140031583016768)2025-06-06 16:59:26,453:remove_artifacts_seqs file /tmp/tmpy3m0ze4t/deblur_working_dir/patient1-rep2_4_L001_R1_001.fastq.gz.trim.derep
+INFO(140031583016768)2025-06-06 16:59:27,261:total sequences 14698, passing sequences 14698, failing sequences 0
+INFO(140031583016768)2025-06-06 16:59:27,262:multiple_sequence_alignment seqs file /tmp/tmpy3m0ze4t/deblur_working_dir/patient1-rep2_4_L001_R1_001.fastq.gz.trim.derep.no_artifacts
+INFO(140031583016768)2025-06-06 17:03:02,252:deblurring 14698 sequences
+INFO(140031583016768)2025-06-06 17:04:02,329:1977 unique sequences left following deblurring
+INFO(140031583016768)2025-06-06 17:04:02,373:remove_chimeras_denovo_from_seqs seqs file /tmp/tmpy3m0ze4t/deblur_working_dir/patient1-rep2_4_L001_R1_001.fastq.gz.trim.derep.no_artifacts.msa.deblurto working dir /tmp/tmpy3m0ze4t/deblur_working_dir
+INFO(140031583016768)2025-06-06 17:04:02,785:finished processing file
+INFO(140031583016768)2025-06-06 17:04:02,787:finished processing per sample fasta files
+INFO(140031583016768)2025-06-06 17:04:02,788:create_otu_table for 6 samples, into output table /tmp/tmpy3m0ze4t/all.biom
+INFO(140031583016768)2025-06-06 17:04:03,282:for output biom table loaded 6 samples, 12821 unique sequences
+INFO(140031583016768)2025-06-06 17:04:03,289:keeping 2113 (out of 12821 sequences) with >=10 reads
+INFO(140031583016768)2025-06-06 17:04:03,339:saved to biom file /tmp/tmpy3m0ze4t/all.biom
+INFO(140031583016768)2025-06-06 17:04:03,342:saved sequence fasta file to /tmp/tmpy3m0ze4t/all.seqs.fa
+INFO(140031583016768)2025-06-06 17:04:03,343:getting 16s sequences from the biom table
+INFO(140031583016768)2025-06-06 17:04:03,343:remove_artifacts_seqs file /tmp/tmpy3m0ze4t/all.seqs.fa
+INFO(140031583016768)2025-06-06 17:04:07,674:total sequences 2113, passing sequences 1021, failing sequences 1092
+INFO(140031583016768)2025-06-06 17:04:07,709:wrote artifact only filtered biom table to /tmp/tmpy3m0ze4t/reference-non-hit.biom
+INFO(140031583016768)2025-06-06 17:04:07,711:saved biom table sequences to fasta file /tmp/tmpy3m0ze4t/reference-non-hit.seqs.fa
+INFO(140031583016768)2025-06-06 17:04:07,723:wrote 16s filtered biom table to /tmp/tmpy3m0ze4t/reference-hit.biom
+INFO(140031583016768)2025-06-06 17:04:07,725:saved biom table sequences to fasta file /tmp/tmpy3m0ze4t/reference-hit.seqs.fa
+INFO(140031583016768)2025-06-06 17:04:07,725:Keeping temp files
+INFO(140031583016768)2025-06-06 17:04:07,725:deblur workflow finished
+INFO(140031583016768)2025-06-06 17:04:07,725:output saved to /tmp/tmpy3m0ze4t/all.biom
+INFO(140031583016768)2025-06-06 17:04:07,725:------------------

@@ -1,0 +1,7 @@
+sample-id	forward-absolute-filepath	reverse-absolute-filepath
+control1-rep1	/home/shobita/EpidermolysisBullosa/control/SRR12390881_1.fastq.gz	/home/shobita/EpidermolysisBullosa/control/SRR12390881_2.fastq.gz
+control1-rep2	/home/shobita/EpidermolysisBullosa/control/SRR12390898_1.fastq.gz	/home/shobita/EpidermolysisBullosa/control/SRR12390898_2.fastq.gz
+control1-rep3	/home/shobita/EpidermolysisBullosa/control/SRR12390910_1.fastq.gz	/home/shobita/EpidermolysisBullosa/control/SRR12390910_2.fastq.gz
+patient1-rep1	/home/shobita/EpidermolysisBullosa/patient/SRR12390882_1.fastq.gz	/home/shobita/EpidermolysisBullosa/patient/SRR12390882_2.fastq.gz
+patient1-rep2	/home/shobita/EpidermolysisBullosa/patient/SRR12390889_1.fastq.gz	/home/shobita/EpidermolysisBullosa/patient/SRR12390889_2.fastq.gz
+patient1-rep3	/home/shobita/EpidermolysisBullosa/patient/SRR12390895_1.fastq.gz	/home/shobita/EpidermolysisBullosa/patient/SRR12390895_2.fastq.gz
